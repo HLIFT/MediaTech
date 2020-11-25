@@ -1,0 +1,381 @@
+/* ---- Général ---- */
+
+body 
+{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Exo2;
+    color : #424242;
+}
+
+@font-face
+{
+    font-family: "Exo2";
+    src: url("./Exo2-Regular.otf");
+}
+
+table 
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+}
+
+td, th 
+{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+td 
+{
+    text-align: center;
+}
+
+input[type=button] {
+    background-color:#615F8B;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+input[type=submit] {
+    background-color: #615F8B;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+table {
+    width:1400px;
+    padding: 10px;
+    border: 1px solid #f1f1f1;
+    background: rgba(146, 146, 146, 0.089);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+caption 
+{
+    padding: 10px;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h1{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Exo2;
+    font-style: bold;
+}
+
+input[type=text], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top : 5px 0 2px;
+}
+
+/* ---- NavBar ---- */
+
+.nav
+{
+    background-color: #615F8B!important;
+}
+
+.nav-text
+{
+    color: white!important;
+}
+
+/* ---- Index ----*/
+
+.bienvenue{
+    margin: 2% auto 2%;
+}
+
+.img-accueil{
+    width: 1300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: .75rem;
+}
+
+.boutons input[type=button]
+{
+    background-color:#615F8B;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 4px;
+    border: 1px solid #615F8B;
+    cursor: pointer;
+    width: 40%;
+}
+
+.boutons input[type=button]:hover
+{
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+/* ---- Images ---- */
+
+.img{
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ---- Div ----*/
+
+.div{
+    width:600px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.div2{
+    width:1400px;
+    margin:0 auto;
+    margin-top:2%;
+    margin-bottom: 5%;
+}
+
+.div3{
+    width:800px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.del {
+    width:500px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding-bottom: 7px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.del input[type=button] {
+    background-color:#615F8B;
+    color: white;
+    padding: 7px 10px;
+    margin: 4px 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 45%;
+}
+
+.del input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+.btn-align
+{
+    margin: 20px auto;
+}
+
+.btn-align input[type=button]
+{
+    background-color:#615F8B;
+    color: white;
+    padding: 7px 10px;
+    margin: auto 4px;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 30%;
+}
+
+.btn-align input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+.div input[type=button], input[type=submit] {
+    background-color:#615F8B;
+    color: white;
+    margin: 20px 4px 0;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 48%;
+}
+
+.div input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+.div3 input[type=button], input[type=submit] {
+    background-color:#615F8B;
+    color: white;
+    margin: 20px 4px 0;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 48%;
+}
+
+.div3 input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+/* ---- Delete ---- */
+
+.message
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+/* ----- Connexion ----- */
+
+.icone-connect
+{
+    align-content: flex-end;
+    margin-left: 2px;
+    width: 21px;
+    height: 21px;
+}
+
+.connect
+{
+    margin-left: 5px;
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color:#615F8B;
+}
+
+.connect:hover
+{
+    background-color:#83C2BC;
+    border-color: #83C2BC;
+}
+
+.connect:focus
+{
+    background-color: #83C2BC;
+}
+
+.connect:active
+{
+    background-color: #83C2BC;
+}
+
+.compte{
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.ctq{
+    margin-right: 2%;
+    font-size: 14px;
+}
+
+/* ---- Impossible ---- */
+
+.impo{
+    width:950px;
+    margin:0 auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.impo input[type=button] {
+    background-color:#615F8B;
+    color: white;
+    margin: 4px 0;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #615F8B;
+    border-radius:.25rem;
+    cursor: pointer;
+    width: 45%;
+}
+
+.impo input[type=button]:hover {
+    background-color: #83C2BC;
+    color: #ffffff;
+    border: 1px solid #83C2BC;
+}
+
+.impo h1 {
+    font-size: 180%;
+    margin: 5px auto;
+}
+
+.erreur{
+    color:red;
+}
+
+.raison{
+    font-size: 115%;
+}
+
+/* ----- Gestion user ----- */
+
+.change-mdp{
+    width: 30% !important;
+    padding: 5px 2px !important;
+    font-size: 80% !important;
+}
